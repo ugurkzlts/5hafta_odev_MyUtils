@@ -50,7 +50,7 @@ class MyUtils {
     double[] fonkdizi1=new double[201];
     double[] fonkdizi2=new double[201];
     int sayac=0;
-    double e=2.3;
+    double e=2.71;
     double eust=1;
     double fx1,fx2;
     int par1_1=(int)par1;
@@ -143,7 +143,7 @@ class MyUtils {
             float par1=Parametre1.nextFloat();
             System.out.println("f(x) Fonksıyonu icin 2. Parametreyı Pozitif olarak  giriniz");
             float par2=Parametre2.nextFloat();
-            if(par1>0 || par2<0 || par1<par2){
+            if(par1>0 || par2<0 ){
                 System.out.println("Deger aralıgını dogru girınız 1. parametre '-'  2.parametre '+' deger almalıdır tekrar giris yapınız");
             }else {
                 Fonk(par1,par2);
